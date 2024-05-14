@@ -10,7 +10,7 @@
 4. 选择列表中的`Apex Legends (r5apex.exe)`，点击`Next`  
    如果列表中没有`Apex Legends (r5apex.exe)`，点击`Browse...`，进入游戏根目录，然后选择`r5apex.exe`，点击`Next`
 5. 选择`Microsoft® DirectX® 10/11/12`，点击`Next`
-6. 如果这是你第一次为游戏安装ReShade，这里应当出现的界面是`Select effects to install`，点击`Uncheck all`，然后点击`Next`  
+6. 如果这是你第一次为游戏安装ReShade，这里应当出现的界面是`Select effects to install:`，点击`Uncheck all`，然后点击`Next`  
    如果以前你曾为游戏安装过ReShade，这里出现的界面可能会是`Select the operation to perform:`，建议选择`Uninstall ReShade and effects`，然后点击`Next`,之后点击`Back`，再重复`步骤4~6`
 7. 等待下载完成，然后点击`Finish`
 
