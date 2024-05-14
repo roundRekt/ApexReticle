@@ -1,4 +1,4 @@
-# ApexReticle
+ApexReticle
 
 这是一个易于使用、可自定义、支持中文、基于ReShade、为Apex Legends开发的准星插件
 
@@ -16,7 +16,7 @@
 
 ## 安装ApexReticle
 
-1. 下载ApexReticle[最新发行版](releases/latest)中的`ApexReticle.zip`
+1. 下载ApexReticle[最新发行版](/releases/latest/download/ApexReticle.zip)
 2. 打开游戏根目录
    Steam端：打开`Steam-库-ApexLegends`，点击`设置`（右侧齿轮图标），选择`管理`，选择`浏览本地文件`
    EA端：打开`EA-ApexLegends`，点击`管理`，选择`查看属性`，点击`浏览`
@@ -42,7 +42,7 @@
 
 ## 建议和反馈
 
-如果有建议或者反馈欢迎在bilibili私信我或者在视频下留言
-我会继续维护项目并更新一些新功能
-[GitHub](https://github.com/roundRekt)
-[bilibili](https://space.bilibili.com/2122119709)
+ * 如果有建议或者反馈欢迎在bilibili私信我或者在视频下留言
+ * 我会继续维护项目并更新一些新功能
+ * [GitHub](https://github.com/roundRekt)
+ * [bilibili](https://space.bilibili.com/2122119709)
