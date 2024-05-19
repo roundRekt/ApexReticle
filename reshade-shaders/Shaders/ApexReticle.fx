@@ -12,6 +12,8 @@
  https://github.com/roundRekt/ApexReticle
  
  历史：
+ 版本 1.1
+ * 现在当高抛雷分划的显示策略设置为“捏雷时显示”时如果右键被按住则不会显示
  版本 1.0
  * 添加了自定义准星功能
  * 添加了高抛雷分划功能
@@ -25,7 +27,7 @@
 
 #define CROSSHAIR "自定义准星"
 #define GRENADE "高抛雷分划"
-#define AUTHOR "Copyright 2024 roundRekt v1.0"
+#define AUTHOR "Copyright 2024 roundRekt v1.1"
 
 uniform bool Crosshair_Flag
 <
@@ -180,7 +182,7 @@ float4 PS_Crosshair(float4 pos : SV_Position, float2 texcoord : TexCoord) : SV_T
 
 float4 PS_Grenade(float4 pos : SV_Position, float2 texcoord : TexCoord) : SV_Target
 {
-	if (Grenade_Flag && Mouse_Left || Grenade_Display)
+	if (Grenade_Flag && Mouse_Left && !Mouse_Right || Grenade_Display)
 	{
 		switch (Grenade_FOV)
 		{
