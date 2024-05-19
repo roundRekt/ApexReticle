@@ -1,7 +1,7 @@
 /***************************************************************************************************
  ApexReticle
  
- Copyright 2024 roundRekt v1.0
+ Copyright 2024 roundRekt v1.1
  GitHub：https://github.com/roundRekt
  bilibili：https://space.bilibili.com/2122119709
  
