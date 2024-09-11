@@ -295,7 +295,7 @@ float4 PS_Crosshair_Hipfire(float4 pos : SV_Position, float2 texcoord : TexCoord
 		case 0:return tex2D(Crosshair_Sampler_Dot, texcoord);
 		case 1:return tex2D(Crosshair_Sampler_Cross, texcoord);
 		case 2:return tex2D(Crosshair_Sampler_X, texcoord);
-		default:return tex2D(Crosshair_Sampler_KovaaK, texcoord);
+		default:return tex2D(Crosshair_Sampler_KovaaK_Hipfire, texcoord);
 	}
 
 }
