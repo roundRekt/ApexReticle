@@ -10,7 +10,7 @@
 4. 选择列表中的`Apex Legends (r5apex.exe)`，点击`Next`  
    如果列表中没有`Apex Legends (r5apex.exe)`，点击`Browse...`，进入游戏根目录，然后选择`r5apex.exe`，点击`Next`
 5. 选择`Microsoft® DirectX® 10/11/12`，点击`Next`
-6. 如果这是你第一次为游戏安装ReShade，这里应当出现的界面是`Select effects to install:`，点击`Uncheck all`，然后点击`Next`  
+6. 如果这是你第一次为游戏安装ReShade，这里应当出现的界面是`Select effects to install:`，（此处可能需要科学上网）点击`Uncheck all`，然后点击`Next`
    如果以前你曾为游戏安装过ReShade，这里出现的界面可能会是`Select the operation to perform:`，建议选择`Uninstall ReShade and effects`，然后点击`Next`,之后点击`Back`，再重复`步骤4~6`
 7. 等待下载完成，然后点击`Finish`
 
@@ -35,15 +35,17 @@
 
 1. 进入[Koovak's准星生成器](https://crosshair.themeta.gg/)，制作一个喜爱的准星，并点击下方的`DOWNLOAD CROSSHAIR PNG`下载准星图片
 2. 对着下载好的图片右键，选择`属性-详细信息`，查看图片的`宽度`和`高度`
-3. 将准星图片复制到`游戏根目录/reshade-shaders/Textures/`并覆盖
+3. 如果是主要准星，将准星图片复制到`游戏根目录/reshade-shaders/Textures/`并覆盖
+   如果是次要准星，先将图片文件名修改为`KovaaK-Crosshair-Hipfire.png`，再进行上述步骤
 4. 如果更新准星时游戏正在运行，点击键盘上的`Home`键（默认的ReShade设置面板切换键），然后点击下方的`重新加载`
 5. 在设置选项中将准星样式调整为`自定义准星图片`
 6. 调整图片宽度和图片高度（建议设置为`步骤2`中的`宽度`和`高度`）
-7. 如果需要将其他来源的图片设置为准星，请将图片文件名修改为`KovaaK-Crosshair.png`，然后进行`步骤2~5`，图片的宽度和高度不应超过`500像素`
+7. 如果需要将其他来源的图片设置为准星，请将图片文件名修改为`KovaaK-Crosshair.png`（主要准星）或`KovaaK-Crosshair-Hipfire.png`（次要准星），然后进行`步骤2~5`，图片的宽度和高度不应超过`500像素`
 
 ## 建议和反馈
 
  * 如果有建议或者反馈欢迎在bilibili私信我或者在视频下留言
- * 我会继续维护项目并更新一些新功能
  * [GitHub](https://github.com/roundRekt)
  * [bilibili](https://space.bilibili.com/2122119709)
+ * [项目链接](https://github.com/roundRekt)
+ * [视频教程](https://space.bilibili.com/2122119709)
